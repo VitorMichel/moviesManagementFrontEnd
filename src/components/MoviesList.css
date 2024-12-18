@@ -1,0 +1,202 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.createButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.createButton:hover {
+  background-color: #45a049;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.movieItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+}
+
+.movieItem:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.movieRating {
+  font-size: 14px;
+  color: #555;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.editButton,
+.deleteButton {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editButton {
+  background-color: #007bff;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.formGroup label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.formActions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.submitButton {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.closeModalButton {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #6c757d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.closeModalButton:hover {
+  background-color: #5a6268;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+.actorsDropdown {
+  width: 100%;
+  height: 100px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow-y: auto;
+}

@@ -1,0 +1,134 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .createButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .createButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .actorItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .actorInfo {
+    flex-grow: 1;
+  }
+  
+  .actorName {
+    font-size: 1.2rem;
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .editButton,
+  .deleteButton,
+  .viewMoviesButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .editButton:hover,
+  .deleteButton:hover,
+  .viewMoviesButton:hover {
+    background-color: #218838;
+  }
+  
+  .viewMoviesButton {
+    background-color: #007bff;
+  }
+  
+  .viewMoviesButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: white;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .formActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .submitButton,
+  .closeModalButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover,
+  .closeModalButton:hover {
+    background-color: #0056b3;
+  }
